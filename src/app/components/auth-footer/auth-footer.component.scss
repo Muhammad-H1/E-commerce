@@ -1,0 +1,82 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Start Media Query */
+/* Small Screen */
+@media (min-width: 768px) {
+  .container {
+      width: 750px;
+  }
+}
+/* Medium Screen */
+@media (min-width: 992px) {
+  .container {
+      width: 970px;
+  }
+}
+/* large Screen */
+@media (min-width: 1200px) {
+  .container {
+      width: 1170px;
+  }
+}
+ /* Start Footer  */
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: linear-gradient(to right , rgb(0 0 0 / 40%), rgba(0 0 0 / 40%)),
+  url("/assets/subscribe.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.footer p:not(.copyright) {
+  text-transform: capitalize;
+  margin: 40px auto 20px;
+  font-size: 3.5em;
+  font-weight: bold;
+  padding: 20px;
+  width: fit-content;
+  position: relative;
+  border-bottom: 1px solid white;
+}
+.footer .social-icons  {
+  padding-top: 25px;
+}
+.footer .social-icons i {
+  padding: 20px 25px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.footer .social-icons a {
+  text-decoration: none;
+  color: white;
+}
+.footer .copyright  {
+  margin-top: 50px;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+.footer .copyright span {
+  // color: var(--main-color);
+  color: #19c8fa;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.footer .pi-facebook:hover{
+  color: #0866ff;
+}
+.footer .pi-twitter:hover{
+  color: black;
+}
+.footer .pi-whatsapp:hover{
+  color: #25d366;
+}
+.footer .pi-linkedin:hover{
+  color: #0073b0;
+}
+/* End Footer  */
