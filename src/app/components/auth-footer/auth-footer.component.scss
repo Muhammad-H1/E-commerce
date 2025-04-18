@@ -39,7 +39,7 @@
 .footer p:not(.copyright) {
   text-transform: capitalize;
   margin: 40px auto 20px;
-  font-size: 5rem;
+  font-size: 5em;
   font-weight: bold;
   padding: 15px;
   width: fit-content;
@@ -51,7 +51,7 @@
 }
 .footer .social-icons i {
   padding: 30px 25px;
-  font-size: 2rem;
+  font-size: 2em;
   cursor: pointer;
 }
 .footer .social-icons a {
@@ -71,35 +71,35 @@
 
 @media (max-width: 992px) {
   .footer p:not(.copyright) {
-    font-size: 4rem;
+    font-size: 4em;
     // background-color: blue;
   }
   .footer .social-icons i {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     cursor: pointer;
   }
   .footer .copyright  {
-    font-size: 1.1rem;
+    font-size: 1.1em;
   }
   .footer .copyright span {
-    font-size: 1.2rem;
+    font-size: 1.2em;
   }
 }
 @media (max-width: 768px) {
   .footer p:not(.copyright) {
-    font-size: 2.5rem;
+    font-size: 3em;
     padding-top: 30px;
     // background-color: red;
   }
   .footer .social-icons i {
-    font-size: 1.3rem;
+    font-size: 1.3em;
     cursor: pointer;
   }
   .footer .copyright  {
-    font-size: 1rem;
+    font-size: 1em;
   }
   .footer .copyright span {
-    font-size: 1.1rem;
+    font-size: 1.1em;
   }
 }
 .footer a i:hover{
