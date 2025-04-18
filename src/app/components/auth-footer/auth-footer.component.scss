@@ -1,6 +1,6 @@
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -25,8 +25,8 @@
 }
  /* Start Footer  */
 .footer {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   background-image: linear-gradient(to right , rgb(0 0 0 / 40%), rgba(0 0 0 / 40%)),
   url("/assets/subscribe.jpg");
   background-size: cover;
@@ -38,16 +38,16 @@
   margin: 40px auto 20px;
   font-size: 3.5em;
   font-weight: bold;
-  padding: 20px;
+  padding: 15px;
   width: fit-content;
   position: relative;
   border-bottom: 1px solid white;
 }
 .footer .social-icons  {
-  padding-top: 25px;
+  padding-top: 15px;
 }
 .footer .social-icons i {
-  padding: 20px 25px;
+  padding: 30px 25px;
   font-size: 1.5em;
   cursor: pointer;
 }
@@ -56,7 +56,7 @@
   color: white;
 }
 .footer .copyright  {
-  margin-top: 50px;
+  margin-top: 40px;
   font-size: 1.1em;
   line-height: 1.5;
 }
@@ -67,7 +67,12 @@
   font-size: 1.3em;
 }
 
-.footer .pi-facebook:hover{
+.footer a i:hover{
+  font-size: 2em;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.footer i.pi-facebook:hover{
   color: #0866ff;
 }
 .footer .pi-twitter:hover{
