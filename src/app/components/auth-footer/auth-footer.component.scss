@@ -30,6 +30,7 @@
   background-image:
   linear-gradient(to right , rgb(0 0 0 / 40%), rgba(0 0 0 / 40%)),
   url("/E-commerce/assets/subscribe.jpg");
+  // url("/assets/subscribe.jpg");
 
   background-size: cover;
   text-align: center;
@@ -38,7 +39,7 @@
 .footer p:not(.copyright) {
   text-transform: capitalize;
   margin: 40px auto 20px;
-  font-size: 3.5em;
+  font-size: 5rem;
   font-weight: bold;
   padding: 15px;
   width: fit-content;
@@ -50,7 +51,7 @@
 }
 .footer .social-icons i {
   padding: 30px 25px;
-  font-size: 1.5em;
+  font-size: 2rem;
   cursor: pointer;
 }
 .footer .social-icons a {
@@ -59,18 +60,50 @@
 }
 .footer .copyright  {
   margin-top: 40px;
-  font-size: 1.1em;
-  line-height: 1.5;
+  font-size: 1.3em;
+  line-height: 1.6;
 }
 .footer .copyright span {
-  // color: var(--main-color);
   color: #19c8fa;
   font-weight: bold;
   font-size: 1.3em;
 }
 
+@media (max-width: 992px) {
+  .footer p:not(.copyright) {
+    font-size: 4rem;
+    // background-color: blue;
+  }
+  .footer .social-icons i {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .footer .copyright  {
+    font-size: 1.1rem;
+  }
+  .footer .copyright span {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .footer p:not(.copyright) {
+    font-size: 2.5rem;
+    padding-top: 30px;
+    // background-color: red;
+  }
+  .footer .social-icons i {
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  .footer .copyright  {
+    font-size: 1rem;
+  }
+  .footer .copyright span {
+    font-size: 1.1rem;
+  }
+}
 .footer a i:hover{
-  font-size: 2em;
+  font-size: 2.5em;
   padding-top: 0px;
   padding-bottom: 0px;
 }
